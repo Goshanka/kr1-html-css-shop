@@ -21,7 +21,7 @@
     />
   </head>
   <body>
-    <header class="site-header">
+    <header class="site-header" id="top">
       <div class="site-header__inner">
         <a class="site-header__logo" href="index.html">ShopProject</a>
 
@@ -32,6 +32,9 @@
             </li>
             <li class="site-nav__item">
               <a class="site-nav__link site-nav__link--active" href="catalog.html">Каталог</a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="order.html">Оформить заявку</a>
             </li>
             <li class="site-nav__item">
               <a class="site-nav__link" href="contacts.html">Контакты</a>
@@ -113,24 +116,44 @@
 
           <div class="products-grid">
             <article class="product-card">
-              <h3 class="product-card__title">Товар 1</h3>
-              <p class="product-card__description">Краткое описание учебного товара.</p>
-              <p class="product-card__price">Цена: 1000 руб.</p>
-              <a class="button button--primary product-card__button" href="index.html#popular">Подробнее</a>
+              <span class="badge badge--hit">Хит</span>
+              <img class="product-card__image" src="images/sofa-1.jpg" alt="Диван Amelia" width="640" height="480" />
+              <h3 class="product-card__title">Диван Amelia</h3>
+              <p class="product-card__description">Бежево-золотистый диван с бархатной обивкой и каретной стяжкой.</p>
+              <p class="product-card__price">Цена: 89 990 руб.</p>
+              <a class="button button--primary product-card__button" href="product.html">Подробнее</a>
             </article>
 
             <article class="product-card">
-              <h3 class="product-card__title">Товар 2</h3>
-              <p class="product-card__description">Краткое описание учебного товара.</p>
-              <p class="product-card__price">Цена: 1500 руб.</p>
-              <a class="button button--primary product-card__button" href="index.html#popular">Подробнее</a>
+              <img class="product-card__image" src="images/sofa-2.jpg" alt="Диван Nordic" width="640" height="480" />
+              <h3 class="product-card__title">Диван Nordic</h3>
+              <p class="product-card__description">Компактный диван в стиле ретро с синей бархатной обивкой.</p>
+              <p class="product-card__price">Цена: 54 990 руб.</p>
+              <a class="button button--primary product-card__button" href="product.html">Подробнее</a>
             </article>
 
             <article class="product-card">
-              <h3 class="product-card__title">Товар 3</h3>
-              <p class="product-card__description">Краткое описание учебного товара.</p>
-              <p class="product-card__price">Цена: 2000 руб.</p>
-              <a class="button button--primary product-card__button" href="index.html#popular">Подробнее</a>
+              <img class="product-card__image" src="images/sofa-3.jpg" alt="Диван Chesterfield" width="640" height="480" />
+              <h3 class="product-card__title">Диван Chesterfield</h3>
+              <p class="product-card__description">Классический диван Честерфилд из фиолетового бархата.</p>
+              <p class="product-card__price">Цена: 72 500 руб.</p>
+              <a class="button button--primary product-card__button" href="product.html">Подробнее</a>
+            </article>
+
+            <article class="product-card">
+              <img class="product-card__image" src="images/sofa-4.jpg" alt="Диван Cozy" width="640" height="480" />
+              <h3 class="product-card__title">Диван Cozy</h3>
+              <p class="product-card__description">Диван серого цвета с мягкими узорными подушками для уютной гостиной.</p>
+              <p class="product-card__price">Цена: 61 900 руб.</p>
+              <a class="button button--primary product-card__button" href="product.html">Подробнее</a>
+            </article>
+
+            <article class="product-card">
+              <img class="product-card__image" src="images/sofa-5.jpg" alt="Диван Scandi" width="640" height="480" />
+              <h3 class="product-card__title">Диван Scandi</h3>
+              <p class="product-card__description">Светлый диван в скандинавском стиле с лаконичным дизайном.</p>
+              <p class="product-card__price">Цена: 47 300 руб.</p>
+              <a class="button button--primary product-card__button" href="product.html">Подробнее</a>
             </article>
           </div>
         </section>
@@ -141,5 +164,7 @@
       <p>&copy; 2026 Учебный проект. Все права защищены.</p>
       <p>Дисциплина: Фронтенд и бэкенд разработка</p>
     </footer>
+
+    <a class="back-to-top" href="#top" aria-label="Наверх">&uarr;</a>
   </body>
 </html>
